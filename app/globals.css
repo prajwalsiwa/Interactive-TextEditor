@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#nativeColorPicker{
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+#nativeColorPicker::-webkit-color-swatch-wrapper {
+    padding: 0; 
+}
+#nativeColorPicker::-webkit-color-swatch {
+    border: 0px;
+    border-radius: 50%;
+}
